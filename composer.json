@@ -1,0 +1,25 @@
+{
+  "name": "mkilmanas/phpspec-sandbox",
+  "type": "project",
+  "description": "Bare sandbox for rapid setup of codeception playground for acceptance (Gherkin) testing",
+  "license": "MIT",
+  "homepage": "https://github.com/mkilmanas/codeception-acceptance-sandbox",
+  "authors": [
+    {
+      "name": "Marijus Kilmanas",
+      "homepage": "https://github.com/mkilmanas"
+    }
+  ],
+  "require": {
+    "codeception/codeception": "^3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "\\": "src/",
+      "tests\\": "tests/"
+    }
+  }
+}
